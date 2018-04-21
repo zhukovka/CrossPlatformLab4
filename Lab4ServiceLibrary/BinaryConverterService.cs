@@ -12,7 +12,7 @@ namespace Lab4ServiceLibrary
     {
         public string GetBinary(int value)
         {
-            return string.Format("This method is not implemented. You entered: {0}", value);
+            return Convert.ToString(value, 2);
         }
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)
@@ -28,9 +28,10 @@ namespace Lab4ServiceLibrary
             return composite;
         }
 
-        public string GetOneCount(int value)
+        public int GetOneCount(int value)
         {
-            return string.Format("This method is not implemented. You entered: {0}", value);
+            string binary = GetBinary(value);
+            return binary.Count(b => b == '1');
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Lab4ServiceLibrary
         string GetBinary(int value);
 
         [OperationContract]
-        string GetOneCount(int value);
+        int GetOneCount(int value);
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
