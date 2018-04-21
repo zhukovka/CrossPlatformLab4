@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryConverterAppClient", 
 		{4D706410-23CB-4D5D-9E15-B17C5EDDE9C0} = {4D706410-23CB-4D5D-9E15-B17C5EDDE9C0}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryConverterDLL", "BinaryConverterDLL\BinaryConverterDLL.csproj", "{4F678005-3433-4495-B017-35FBD54A5C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryConverterConsoleApp", "BinaryConverterConsoleApp\BinaryConverterConsoleApp.csproj", "{8E010BA4-4B6F-49DB-9B95-0B3A094A8A60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +34,14 @@ Global
 		{B5B927D1-BE96-40B9-A185-37C72360ED9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5B927D1-BE96-40B9-A185-37C72360ED9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5B927D1-BE96-40B9-A185-37C72360ED9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F678005-3433-4495-B017-35FBD54A5C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F678005-3433-4495-B017-35FBD54A5C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F678005-3433-4495-B017-35FBD54A5C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F678005-3433-4495-B017-35FBD54A5C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E010BA4-4B6F-49DB-9B95-0B3A094A8A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E010BA4-4B6F-49DB-9B95-0B3A094A8A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E010BA4-4B6F-49DB-9B95-0B3A094A8A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E010BA4-4B6F-49DB-9B95-0B3A094A8A60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
