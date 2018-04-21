@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4ServiceLibrary", "Lab4ServiceLibrary\Lab4ServiceLibrary.csproj", "{4D706410-23CB-4D5D-9E15-B17C5EDDE9C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryConverter", "BinaryConverter\BinaryConverter.csproj", "{B105B1FE-9799-4A02-BDF5-61DB0BF8C6A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4D706410-23CB-4D5D-9E15-B17C5EDDE9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D706410-23CB-4D5D-9E15-B17C5EDDE9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D706410-23CB-4D5D-9E15-B17C5EDDE9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B105B1FE-9799-4A02-BDF5-61DB0BF8C6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B105B1FE-9799-4A02-BDF5-61DB0BF8C6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B105B1FE-9799-4A02-BDF5-61DB0BF8C6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B105B1FE-9799-4A02-BDF5-61DB0BF8C6A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

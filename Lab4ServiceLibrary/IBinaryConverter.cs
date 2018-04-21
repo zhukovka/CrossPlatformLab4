@@ -7,12 +7,16 @@ using System.Text;
 
 namespace Lab4ServiceLibrary
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
-    [ServiceContract]
-    public interface IService1
+    // Програма повідомляє кількість одиниць у двійковому представленні числа та саме двійкове представлення.
+
+    [ServiceContract(Namespace = "http://localhost")]
+    public interface IBinaryConverter
     {
         [OperationContract]
-        string GetData(int value);
+        string GetBinary(int value);
+
+        [OperationContract]
+        string GetOneCount(int value);
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);

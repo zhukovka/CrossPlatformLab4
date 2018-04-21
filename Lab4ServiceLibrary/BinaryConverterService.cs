@@ -8,11 +8,11 @@ using System.Text;
 namespace Lab4ServiceLibrary
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in both code and config file together.
-    public class Service1 : IService1
+    public class BinaryConverterService : IBinaryConverter
     {
-        public string GetData(int value)
+        public string GetBinary(int value)
         {
-            return string.Format("You entered: {0}", value);
+            return string.Format("This method is not implemented. You entered: {0}", value);
         }
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)
@@ -26,6 +26,11 @@ namespace Lab4ServiceLibrary
                 composite.StringValue += "Suffix";
             }
             return composite;
+        }
+
+        public string GetOneCount(int value)
+        {
+            return string.Format("This method is not implemented. You entered: {0}", value);
         }
     }
 }
