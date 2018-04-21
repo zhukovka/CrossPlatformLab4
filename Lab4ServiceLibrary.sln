@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4ServiceLibrary", "Lab4S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryConverter", "BinaryConverter\BinaryConverter.csproj", "{B105B1FE-9799-4A02-BDF5-61DB0BF8C6A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryConverterAppClient", "BinaryConverterAppClient\BinaryConverterAppClient.csproj", "{B5B927D1-BE96-40B9-A185-37C72360ED9A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D706410-23CB-4D5D-9E15-B17C5EDDE9C0} = {4D706410-23CB-4D5D-9E15-B17C5EDDE9C0}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +26,10 @@ Global
 		{B105B1FE-9799-4A02-BDF5-61DB0BF8C6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B105B1FE-9799-4A02-BDF5-61DB0BF8C6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B105B1FE-9799-4A02-BDF5-61DB0BF8C6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B927D1-BE96-40B9-A185-37C72360ED9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B927D1-BE96-40B9-A185-37C72360ED9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B927D1-BE96-40B9-A185-37C72360ED9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B927D1-BE96-40B9-A185-37C72360ED9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
