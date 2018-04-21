@@ -31,7 +31,8 @@ namespace BinaryConverterAppClient
             {
                 int m = Int32.Parse(inputBox.Text);
                 string binary = service.GetBinary(m);
-                MessageBox.Show("Binary of " + m + " is " + binary);
+                string oneCount = service.GetOneCount(m);
+                MessageBox.Show($"Binary of {m} is {binary}. It has {oneCount} of 1");
             }
             catch (FormatException err)
             {

@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Lab4ServiceLibrary
 {
-    // Програма повідомляє кількість одиниць у двійковому представленні числа та саме двійкове представлення.
+    // 9 Програма повідомляє кількість одиниць у двійковому представленні числа та саме двійкове представлення.
 
     [ServiceContract(Namespace = "http://localhost")]
     public interface IBinaryConverter
