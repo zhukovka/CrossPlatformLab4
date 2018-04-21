@@ -10,7 +10,8 @@ namespace BinaryConverterDLL
 {
     public class BinaryConverterLib
     {
-        public string RequestToBinaryConverter(int n)
+
+        public string RequestToBinaryConverter(string addr, int n)
         {
             string response = "";
 
@@ -18,7 +19,8 @@ namespace BinaryConverterDLL
             try
             {
                 BasicHttpBinding binding = new BasicHttpBinding();
-                EndpointAddress address = new EndpointAddress("http://localhost:8733/Design_Time_Addresses/Lab4ServiceLibrary/Service1/");
+                
+                EndpointAddress address = new EndpointAddress("http://"+addr+ "/Design_Time_Addresses/Lab4ServiceLibrary/Service1/");
                 factory = new ChannelFactory<IBinaryConverter>(binding, address);
                 IBinaryConverter channel = factory.CreateChannel();
                 response = channel.GetBinary(n);

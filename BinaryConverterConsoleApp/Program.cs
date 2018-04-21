@@ -12,8 +12,9 @@ namespace BinaryConverterConsoleApp
         static void Main(string[] args)
         {
             BinaryConverterLib lib = new BinaryConverterLib();
-
-            string res = lib.RequestToBinaryConverter(42);
+            string addr = "192.168.1.102:8733";
+            Console.WriteLine("hello "+addr);
+            string res = lib.RequestToBinaryConverter(addr, 42);
             Console.WriteLine("Binary of 42 is: {0}", res);
             Console.ReadKey();
         }
